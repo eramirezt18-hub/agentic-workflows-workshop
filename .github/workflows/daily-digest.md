@@ -1,6 +1,6 @@
 ---
 name: Daily Digest
-model: gemini-3-flash
+model: auto
 max-ai-credits: -1
 on:
   schedule: daily on weekdays
