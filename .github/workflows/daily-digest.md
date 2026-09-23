@@ -1,6 +1,5 @@
 ---
 name: Daily Digest
-model: gpt-4o-mini
 max-ai-credits: -1
 on:
   schedule: daily on weekdays
