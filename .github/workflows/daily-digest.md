@@ -2,7 +2,7 @@
 name: Daily Digest
 engine:
   id: copilot
-  model: auto
+  model: pt-5.4-mini
 on:
   schedule: daily on weekdays
   workflow_dispatch:
