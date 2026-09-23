@@ -2,7 +2,7 @@
 name: Daily Digest
 engine:
   id: copilot
-  model: gpt-5-mini
+  model: claude-haiku-4-5
 on:
   schedule: daily on weekdays
   workflow_dispatch:
