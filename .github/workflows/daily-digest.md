@@ -12,7 +12,7 @@ permissions:
 network: defaults
 safe-outputs:
   create-issue:
-    max: 1 
+    max: 1
 ---
 
 # Daily Digest
