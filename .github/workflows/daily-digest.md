@@ -1,6 +1,6 @@
 ---
 name: Daily Digest
-model: haiku
+model: gemini-3-flash
 max-ai-credits: -1
 on:
   schedule: daily on weekdays
