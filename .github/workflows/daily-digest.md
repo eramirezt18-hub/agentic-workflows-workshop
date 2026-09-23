@@ -1,8 +1,7 @@
 ---
 name: Daily Digest
-engine:
-  id: copilot
-  model: claude-haiku-4-5
+model: gpt-4.1-mini
+max-ai-credits: -1
 on:
   schedule: daily on weekdays
   workflow_dispatch:
@@ -13,7 +12,7 @@ permissions:
 network: defaults
 safe-outputs:
   create-issue:
-    max: 1
+    max: 1 
 ---
 
 # Daily Digest
