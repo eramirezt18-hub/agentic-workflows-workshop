@@ -1,6 +1,7 @@
 ---
 name: Daily Digest
 max-ai-credits: -1
+model: gpt-4o
 on:
   schedule: daily on weekdays
   workflow_dispatch:
@@ -11,6 +12,7 @@ permissions:
 network: defaults
 safe-outputs:
   create-issue:
+   
     max: 1
 ---
 
