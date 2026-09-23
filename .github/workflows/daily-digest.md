@@ -2,7 +2,7 @@
 name: Daily Digest
 engine:
   id: copilot
-  model: gpt-5.6
+  model: auto
 on:
   schedule: daily on weekdays
   workflow_dispatch:
