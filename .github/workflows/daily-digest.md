@@ -1,6 +1,6 @@
 ---
 name: Daily Digest
-model: gpt-4.1-mini
+model: haiku
 max-ai-credits: -1
 on:
   schedule: daily on weekdays
